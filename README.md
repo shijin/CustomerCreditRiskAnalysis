@@ -86,5 +86,5 @@ This project analyzes 1,000 bank customers to identify drivers of loan default a
 ### Contact
 
 Shijin Ramesh
-Email: kshijin92@mail.com
+Email: kshijin92@mail.com  
 [LinkedIn](https://www.linkedin.com/in/shijinramesh/) | [Portfolio](https://www.shijinramesh.co.in/)
