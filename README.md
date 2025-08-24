@@ -1,6 +1,6 @@
-📊 Credit Risk & Customer Retention Analysis
+📊 ## Credit Risk & Customer Retention Analysis
 
-## Project Overview
+### Project Overview
 
 This project analyzes 1,000 bank customers to identify drivers of loan default and customer churn. Using EDA, feature engineering, predictive modeling, and dashboarding in Power BI, the goal was to provide actionable insights for stakeholders to reduce financial risk and improve customer retention.
 
