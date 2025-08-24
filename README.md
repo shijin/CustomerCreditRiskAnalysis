@@ -1,16 +1,16 @@
-📊 ## Credit Risk & Customer Retention Analysis
+## 📊 Credit Risk & Customer Retention Analysis
 
 ### Project Overview
 
 This project analyzes 1,000 bank customers to identify drivers of loan default and customer churn. Using EDA, feature engineering, predictive modeling, and dashboarding in Power BI, the goal was to provide actionable insights for stakeholders to reduce financial risk and improve customer retention.
 
-🎯 Business Problem
+### Business Problem
 
 - Loan Defaults: Missed repayments increase financial risk and reduce profitability.
 - Customer Churn: High churn rates impact revenue and increase acquisition costs.
 - Need: Early identification of high-risk customers and data-driven strategies to improve retention.
 
-🗂️ Dataset Overview
+### Dataset Overview
 
 - Customers: 1,000 (synthetic but realistic dataset)
 - Key Features:
@@ -22,7 +22,7 @@ This project analyzes 1,000 bank customers to identify drivers of loan default a
   - Default_Flag - Whether customer defaulted on loans.
   - Churn_Flag - Whether customer churned from the bank.
 
-🔎 Exploratory Data Analysis (EDA) — Key Insights
+### Exploratory Data Analysis (EDA) — Key Insights
 
 - Majority of customers are 25–64 years old.
 - Credit Scores are mostly between 600–750; <500 are high risk.
@@ -31,13 +31,13 @@ This project analyzes 1,000 bank customers to identify drivers of loan default a
 - Complaints: Surprisingly, customers with 3+ complaints had lower churn (likely due to effective resolution).
 - Response to Offers: No strong impact on churn; customer experience matters more.
 
-🛠️ Feature Engineering
+### Feature Engineering
 
 - Expense-to-Income Ratio = Monthly Expense ÷ Monthly Income.
 - High-Risk Flag = Based on Credit Score <600, Utilization >60%, Multiple Loans, Overdue Days >30.
 - Created categorical bands for Credit Score, Age Groups, and Utilization.
 
-🤖 Predictive Modeling
+### Predictive Modeling
 
 - Models tested: Logistic Regression, Random Forest, XGBoost.
 - Challenge: Strong class imbalance (Defaults ~14%, Churn ~16%).
@@ -49,7 +49,7 @@ This project analyzes 1,000 bank customers to identify drivers of loan default a
   - Churn models underperformed due to lack of rich behavioral features.
   - Precision remained weak - models generate more “false alarms”.
 
-📊 Power BI Dashboard
+### Power BI Dashboard
 
 - Built an interactive dashboard with multiple pages:
 - Executive Overview - KPIs (Default Rate, Churn Rate, High-Risk Customers).
@@ -58,7 +58,7 @@ This project analyzes 1,000 bank customers to identify drivers of loan default a
 - High-Risk Customers - Breakdown by City, Income Bracket, Loan History; drill-down to customer level.
 - Predictive Insights - Model-powered risk flagging (recall-focused).
 
-✅ Recommendations for Stakeholders
+ ### Recommendations for Stakeholders
 
 - Credit Risk Monitoring
   - Closely monitor customers with low scores, high utilization, or multiple loans.
@@ -69,21 +69,21 @@ This project analyzes 1,000 bank customers to identify drivers of loan default a
 - Data Strategy
   - Collect richer behavioral and temporal data (repayment history, service resolution times, surveys).
 
-💡 Business Impact
+### Business Impact
 
 - Reduce loan losses by identifying risky customers earlier.
 - Improve retention through better experience management.
 - Lower costs via targeted campaigns instead of broad acquisition.
 - Enable proactive decision-making with real-time dashboard monitoring.
 
-🛠️ Tech Stack
+### Tech Stack
 
 - Languages & Libraries: Python (pandas, numpy, scikit-learn, imbalanced-learn, xgboost, matplotlib, seaborn)
 - Database: Snowflake SQL (for data aggregation & joins)
 - Visualization: Power BI (KPIs, DAX measures, interactive dashboards)
 - Tools: Jupyter Notebook, GitHub
 
-## Contact
+### Contact
 
 Shijin Ramesh
 Email: kshijin92@mail.com
